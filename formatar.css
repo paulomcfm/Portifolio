@@ -1,0 +1,152 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  color:black;
+}
+
+#main{
+    background-color: rgba(128, 128, 128, 0.596);
+    text-align: justify;
+}
+
+#foto-perfil{
+    width: 150px;
+    border-radius: 30%;
+    border: solid 3px;
+    border-color: black;
+    margin: 10px 80px 10px 50px;
+    float: left;
+}
+
+.botao {
+    transition-duration: 0.1s;
+    display: inline;
+    margin: 10px 40px 10px 50px;
+    color: rgb(10, 8, 8);
+    padding: 5px 10px;
+    border: none;
+    background-color: orange;
+}
+.botao:hover{
+    font-size: 65px;
+    margin: 0px 30px 0px 40px;
+    transition-duration: 0.1s;
+}
+
+#menu{
+    text-align: end;
+    background-color: orange;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#inicial{
+    height: 1000px;
+}
+
+#inicial p{
+    margin: 50px 50px;
+}
+
+#sobre{
+    height: 1000px;
+    padding: 20px 0px;
+    background-color: rgba(205, 92, 92, 0.363);
+    text-align: center;
+}
+
+#sobre img{
+    padding: 100px 30px 30px 30px;
+}
+
+#sobre p{
+    margin: 30px 0px;
+}
+
+#c-logo{
+    width: 100px;
+}
+
+#py-logo{
+    width: 100px;
+}
+
+#projetos{
+    height: 1000px;
+    padding: 50px;
+    background-color: rgba(65, 105, 225, 0.404);
+}
+
+#projetos p {
+    margin: 30px;
+    text-align: justify;
+}
+
+#sd-logo{
+    width: 100px;
+}
+
+#prompt-logo{
+    width: 100px;
+}
+
+#contato{
+    height: 1000px;
+    text-align: center;
+    background-color: rgba(106, 142, 35, 0.322);
+    padding: 50px;
+}
+
+#contato a{
+    text-decoration: none;
+    transition-duration: 0.1s;
+    font-size: 20px;
+}
+
+#contato p{
+    margin: 10px;
+}
+
+.contato-p{
+    padding-bottom: 40px;
+}
+
+#contato img:hover{
+    width: 150px;
+    transition-duration: 0.1s;
+}
+#contato a:hover{
+    font-size: 35px;
+}
+
+#inst-logo {
+    width: 100px;
+    transition-duration: 0.1s;
+}
+
+#git-logo{
+    width: 90px;
+    border: solid 3px black;
+    border-radius: 15px;
+    transition-duration: 0.1s;
+}
+
+#link-logo {
+    width: 100px;
+    transition-duration: 0.1s;
+}
+
+#irtopo{
+    background: transparent;
+    border: none;
+    font-size: 0;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+
+#irtopo img {
+    width: 60px;
+}
