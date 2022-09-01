@@ -149,4 +149,10 @@
 
 #irtopo img {
     width: 60px;
+    transition-duration: 0.1s;
+}
+
+#irtopo img:hover{
+    width: 70px;
+    transition-duration: 0.1s;
 }
